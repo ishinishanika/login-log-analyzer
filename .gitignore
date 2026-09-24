@@ -1,0 +1,19 @@
+# Python-generated files
+__pycache__/
+*.py[cod]
+
+# Virtual environments
+.venv/
+venv/
+
+# Local configuration
+.env
+.vscode/
+
+# Exclude datasets except the synthetic example
+data/*
+!data/sample_logins.csv
+
+# Exclude generated reports but keep the investigation write-up
+reports/*
+!reports/investigation_report.md
