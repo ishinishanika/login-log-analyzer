@@ -4,6 +4,17 @@ A Python cybersecurity learning project that analyzes login records, detects sus
 
 **An alert is a reason to investigate, not proof that an attack occurred.**
 
+## Live Demo
+
+**[Open Nyxie Log Analyzer](https://nyxie-log-analyzer.streamlit.app/)**
+
+Try the built-in sample dataset or upload a synthetic CSV to explore
+login activity, review detection alerts, and download a report.
+
+No local installation is required. Uploaded files are processed on
+the hosting provider's server. Please use synthetic data only; do not
+upload real authentication logs, credentials, or personal information.
+
 ## Features
 
 - Validate timestamps, usernames, IP addresses, and login statuses.
